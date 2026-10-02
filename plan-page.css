@@ -4,12 +4,14 @@ body {
     background: url('images/plan-page.jpg');
     font-size: 16px;
     width: 1180px;
+    margin: auto;
 }
 
 
 section article {
-    margin: 0 auto;
-
+    width: 330px;
+    height: 500px;
+    text-align: center;
     background-color: #262626;
     display: inline-block;
     margin: 80px 20px 0 20px;
@@ -18,41 +20,43 @@ section article {
 }
 
 
-article h1 {
+section article h1 {
     font-size: 1.5em;
     color: #FFF;
+    margin: 25px 0 25px 0;
 }
 
 
-p.price {
+section article p.price {
     font-size: 3em;
     font-weight: bold;
     color: #27dcc4;
+    margin: 40px;
 }
 
 
-ul {
+section article ul {
     padding: 0;
 }
 
 
-li {
+section article ul li {
     list-style-type: none;
-    padding: 5px 0;
+    padding: 6px 0;
 }
 
 
-button {
+section button {
     background: #27dcc4;
-    color: #FFF;
+    color: #ffffff;
     padding: 15px 30px;
-    margin: 10px 0;
+    margin: 25px 0;
     font-size: 0.9em;
     cursor: pointer;
     border: none;
 }
 
 
-button:hover {
+section article button:hover {
     background: #ACACAC;
 }
